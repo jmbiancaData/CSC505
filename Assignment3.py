@@ -3,7 +3,8 @@ prototype_pages = [
     "Welcome Screen",
     "Lists (Home Page)",
     "Create New List",
-    "View/Edit List",
+    "My List",
+    "Edit List",
     "Settings"
 ]
 
@@ -13,6 +14,7 @@ page_flow = [
     ("Lists (Home Page)", "Create New List"),
     ("Lists (Home Page)", "View/Edit List"),
     ("Lists (Home Page)", "Settings"),
+    ("My List", "Edit"),
     ("View/Edit List", "Add Item"),
     ("View/Edit List", "Edit/Delete Item")
 ]
