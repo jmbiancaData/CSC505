@@ -1,4 +1,4 @@
-# Define prototype structure
+# define site app structure
 prototype_pages = [
     "Welcome Screen",
     "Lists (Home Page)",
@@ -7,7 +7,7 @@ prototype_pages = [
     "Settings"
 ]
 
-# Define flow as tuples (From Page -> To Page)
+# define flow as tuples (from page -> to page)
 page_flow = [
     ("Welcome Screen", "Shopping Lists (Home Page)"),
     ("Lists (Home Page)", "Create New List"),
